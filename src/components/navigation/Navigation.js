@@ -14,6 +14,7 @@ const Navigation =()=> {
                     my pizza
                 </Logo>
                 <Anchor
+                    affix={false}
                     direction="horizontal"
                     items={NavItems}
                     className="linkNavigation"
