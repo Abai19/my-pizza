@@ -4,9 +4,11 @@ import styled from "styled-components";
 export const PizzaWrapper = styled.div`
     display:flex;
     flex-direction: column;
+    cursor: pointer;
 `
 export const ImgBlock = styled.img`
-    width: 100%
+    width: 100%;
+    object-fit: contain;
 `
 export const NameBlock = styled.div`
     font-size: 20px;
@@ -34,5 +36,14 @@ export const CartButton = styled(Button)`
     }
     &:hover span{
         color: white; 
+    }
+`
+
+export const ModalWrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
+
+    & img {
+        width: 50%;
     }
 `

@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/header/Header';
 import Navigation from './components/navigation/Navigation';
-import Pizza from './components/pizza/Pizza';
+import Product from './components/product/Product';
 import Slider from './components/slider/Slider';
 
 function App() { 
@@ -10,7 +10,9 @@ function App() {
       <Header/>
       <Navigation/>
       <Slider/>
-      <Pizza/>
+      <Product id="pizzas" name="Пицца"/>
+      <Product id="snacks" name="Закуски"/>
+      <Product id="desserts" name="Десерты"/>
     </div>
   );
 }
